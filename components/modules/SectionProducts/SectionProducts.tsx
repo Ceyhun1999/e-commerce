@@ -2,7 +2,8 @@ import styles from "./sectionProducts.module.css";
 import SectionCat from "./SectionCat/SectionCat";
 import { getProducts } from "@/services/getProducts";
 
-const SectionProducts = async ({ title, products }: { title: string; products: any }) => {
+const SectionProducts = async ({ title}: { title: string }) => {
+    const products = await getProducts();
     return (
         <section className={styles.sectionProducts}>
             <div className={styles.sectionProducts__title}>
