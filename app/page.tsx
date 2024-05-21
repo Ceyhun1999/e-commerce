@@ -3,7 +3,6 @@ import MainSlider from "@/components/modules/MainSlider/MainSlider";
 import Banner from "@/components/modules/Banner/Banner";
 import Image from "next/image";
 import ExclusiveProducts from "@/components/modules/ExclusiveProducts/ExclusiveProducts";
-import { Suspense } from "react";
 
 export default function Home() {
     return (

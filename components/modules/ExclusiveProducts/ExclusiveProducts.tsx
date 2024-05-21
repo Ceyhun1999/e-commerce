@@ -1,6 +1,5 @@
 import { getProducts } from "@/services/getProducts";
 import { Suspense } from "react";
-import dynamic from "next/dynamic";
 
 import SectionProducts from "../SectionProducts/SectionProducts";
 function Loading() {
@@ -8,11 +7,8 @@ function Loading() {
 }
 
 const ExclusiveProducts = async () => {
-    return (
-        <Suspense fallback={<Loading />}>
-            <SectionProducts title="Exclusive Products" />
-        </Suspense>
-    );
+    const products = await getProducts();
+    return <SectionProducts title="Exclusive Products" products={products} />;
 };
 
 export default ExclusiveProducts;
