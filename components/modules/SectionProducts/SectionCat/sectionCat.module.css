@@ -1,0 +1,15 @@
+.sectionCat {
+    display: flex;
+    gap: 20px;
+}
+
+.sectionCat li {
+    font-size: 14px;
+    font-weight: 500;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.sectionCat li:hover {
+    color: var(--red);
+}

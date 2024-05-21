@@ -1,0 +1,65 @@
+
+.select__block, .search__block {
+    position: relative;
+    display: inline-block;
+}
+
+.search__block {
+    display: flex;
+}
+
+.input__block {
+    position: relative;
+    width: 420px;
+}
+
+.search__block button {
+    position: absolute;
+    right: 5px;
+    background: #FF324D;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__block input {
+    height: 50px;
+    border: 1px solid #ced4da;
+    border-left: none;
+    outline: none;
+    border-radius: 0 25px 25px 0;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.select {
+    border-radius: 25px 0 0 25px;
+    padding: 8px 35px 8px 15px;
+    appearance: none;
+    border: 1px solid #ced4da;
+    outline: none;
+    max-width: 160px;
+    width: 100%;
+    overflow: hidden;
+    height: 50px;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.select__arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../../../public/img/arrow-select.svg') center/20px no-repeat;
+
+}

@@ -1,0 +1,122 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Red & Black Headphone",
+            "price": 65.0,
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img1.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img1.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img10.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img10.jpg"
+            ],
+            "types": "Best Sellers, Headphones",
+            "star": 3
+        },
+        {
+            "id": 2,
+            "name": "Smart Watch External",
+            "price": 69.0,
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img2.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img2.jpg"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4
+        },
+        {
+            "id": 3,
+            "name": "Nikon HD Camera",
+            "price": [70, 50],
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img3.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img3.jpg"
+            ],
+            "types": "Best Sellers, Camera, Special Offer",
+            "star": 3
+        },
+        {
+            "id": 4,
+            "name": "Surveillance Camera",
+            "price": [70, 50],
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img8.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img8.jpg"
+            ],
+            "types": "Camera,  New Arrival",
+            "star": 4
+        },
+        {
+            "id": 5,
+            "name": "Samsung Smart Phone",
+            "price": 120,
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img6.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img6.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img9.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img9.jpg"
+            ],
+            "types": "Best Sellers, Featured, Mobile & Tablet, Special Offer",
+            "star": 4
+        },
+        {
+            "id": 6,
+            "name": "Smart Televisions",
+            "price": [170, 150],
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img5.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img5.jpg"
+            ],
+            "types": "Computer, Featured, Special Offer",
+            "star": 5
+        },
+        {
+            "id": 6,
+            "name": "Audio Theaters",
+            "price": [70, 40],
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img7.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img7.jpg"
+            ],
+            "types": "Best Sellers, Computer, Featured",
+            "star": 4
+        },
+        {
+            "id": 7,
+            "name": "Sound Equipment For Low",
+            "price": [95, 50],
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img12.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img12.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img4.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img4.jpg"
+            ],
+            "types": "Featured, Mobile & Tablet, New Arrival",
+            "star": 5
+        },
+        {
+            "id": 8,
+            "name": "Oppo Reno3 Pro",
+            "price": [95, 50],
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img9.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img9.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img6.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img6.jpg"
+            ],
+            "types": "Camera, Mobile & Tablet, New Arrival, Special Offer",
+            "star": 5
+        },
+        {
+            "id": 9,
+            "name": "Smart Televisions",
+            "price": 150,
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img11.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img11.jpg"
+            ],
+            "types": "Computer, Featured, Special Offer",
+            "star": 5
+        }
+    ]
+}
