@@ -1,13 +1,8 @@
+
 .banner div {
     position: relative;
 }
 
-.banner div::before {
-    border-top: 1px solid rgba(255, 255, 255, 0.4);
-    transform: translate(105%, 0%)
-}
-
-.banner div::before,
 .banner div::after {
     background-color: rgba(255, 255, 255, 0.6);
     content: "";
@@ -20,7 +15,7 @@
     width: 100%;
     z-index: 1;
 }
-.banner div:hover:before, .banner div:hover:after {
+.banner div:hover:after {
     opacity: .5;
     transform: translate(0px, 0px);
 }

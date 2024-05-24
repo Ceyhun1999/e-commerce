@@ -1,4 +1,4 @@
-import { ICategoryItem } from "@/types";
+import { IBrendsItem, ICategoryItem } from "@/types";
 import { CiCamera, CiMobile3 } from "react-icons/ci";
 import { GiHeadphones, GiWatch } from "react-icons/gi";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
@@ -49,4 +49,23 @@ export const categories: ICategoryItem[] = [
         title: "Printer",
         icon: <TfiPrinter size={25} color="#767b8b" />,
     },
+];
+
+export const brendsData: IBrendsItem[] = [
+    {
+        img: "/img/brend1.png",
+        id: 1,
+    },
+    {
+        img: "/img/brend2.png",
+        id: 2,
+    },
+    {
+        img: "/img/brend3.png",
+        id: 3,
+    },
+    {
+        img: "/img/brend4.png",
+        id: 4,
+    }
 ];

@@ -1,8 +1,9 @@
 import styles from "./sectionProducts.module.css";
 import SectionCat from "./SectionCat/SectionCat";
+import SectionProductsSlider from "./SectionProductsSlider/SectionProductsSlider";
 import { getProducts } from "@/services/getProducts";
 
-const SectionProducts = async ({ title}: { title: string }) => {
+const SectionProducts = async ({ title }: { title: string }) => {
     const products = await getProducts();
     return (
         <section className={styles.sectionProducts}>
@@ -10,9 +11,7 @@ const SectionProducts = async ({ title}: { title: string }) => {
                 <h2>{title}</h2>
                 <SectionCat />
             </div>
-            {products.map((item: any, index) => (
-                <div key={item.name + index}>{item.name}</div>
-            ))}
+            <SectionProductsSlider products={products} />
         </section>
     );
 };

@@ -3,6 +3,7 @@ import MainSlider from "@/components/modules/MainSlider/MainSlider";
 import Banner from "@/components/modules/Banner/Banner";
 import Image from "next/image";
 import ExclusiveProducts from "@/components/modules/ExclusiveProducts/ExclusiveProducts";
+import Brends from "@/components/modules/Brends/Brends";
 
 export default function Home() {
     return (
@@ -16,28 +17,28 @@ export default function Home() {
             >
                 <Sidebar />
                 <MainSlider />
-                <Banner>
+                <Banner className={"column"}>
                     <div>
-                        <Image src={"/img/menu_banner1.jpg"} alt="Banner" width={250} height={250} />
+                        <img src="/img/banner1.jpg" alt="Banner" />
                     </div>
                     <div>
-                        <Image src={"/img/menu_banner2.jpg"} alt="Banner" width={250} height={250} />
+                        <img src="/img/banner2.jpg" alt="Banner" />
                     </div>
                 </Banner>
             </div>
-            <div
-                style={{
-                    display: "flex",
-                    marginTop: "20px",
-                }}
-            >
-                <Banner>
-                    <div style={{ width: "100%" }}>
-                        <Image src={"/img/banner3.jpg"} alt="Banner" width={300} height={400} />
-                    </div>
-                </Banner>
-                <ExclusiveProducts />
-            </div>
+            <ExclusiveProducts />
+            <Banner className={"row"}>
+                <div>
+                    <img width={"100%"} src="/img/banner4.jpg" alt="Banner" />
+                </div>
+                <div>
+                    <img width={"100%"} src="/img/banner5.jpg" alt="Banner" />
+                </div>
+                <div>
+                    <img width={"100%"} src="/img/banner6.jpg" alt="Banner" />
+                </div>
+            </Banner>
+            <Brends />
         </main>
     );
 }

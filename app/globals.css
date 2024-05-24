@@ -19,3 +19,7 @@
     width: 10px!important;
     height: 10px!important;
 }
+
+.swiper-wrapper {
+    margin-bottom: 20px;
+}

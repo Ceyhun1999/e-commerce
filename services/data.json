@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Red & Black Headphone",
-            "price": 65.0,
+            "price": 65,
             "imgs": [
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img1.jpg",
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img1.jpg",
@@ -16,7 +16,7 @@
         {
             "id": 2,
             "name": "Smart Watch External",
-            "price": 69.0,
+            "price": 69,
             "imgs": [
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img2.jpg",
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img2.jpg"
@@ -71,7 +71,7 @@
             "star": 5
         },
         {
-            "id": 6,
+            "id": 7,
             "name": "Audio Theaters",
             "price": [70, 40],
             "imgs": [
@@ -82,7 +82,7 @@
             "star": 4
         },
         {
-            "id": 7,
+            "id": 8,
             "name": "Sound Equipment For Low",
             "price": [95, 50],
             "imgs": [
@@ -95,7 +95,7 @@
             "star": 5
         },
         {
-            "id": 8,
+            "id": 9,
             "name": "Oppo Reno3 Pro",
             "price": [95, 50],
             "imgs": [
@@ -108,7 +108,7 @@
             "star": 5
         },
         {
-            "id": 9,
+            "id": 10,
             "name": "Smart Televisions",
             "price": 150,
             "imgs": [

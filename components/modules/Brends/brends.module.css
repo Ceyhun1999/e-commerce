@@ -1,0 +1,30 @@
+.brends {
+    margin: 50px 0;
+}
+
+.brends__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+
+.brends__content div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brends__title {
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.brends__content img {
+    opacity: .7;
+    transition: .3s;
+}
+
+.brends__content div:hover img {
+    opacity: 1
+}
