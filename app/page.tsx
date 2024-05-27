@@ -1,7 +1,6 @@
 import Sidebar from "@/components/modules/Sidebar/Sidebar";
 import MainSlider from "@/components/modules/MainSlider/MainSlider";
 import Banner from "@/components/modules/Banner/Banner";
-import Image from "next/image";
 import ExclusiveProducts from "@/components/modules/ExclusiveProducts/ExclusiveProducts";
 import Brends from "@/components/modules/Brends/Brends";
 

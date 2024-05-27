@@ -1,11 +1,9 @@
 "use client";
 
 import Image from "next/image";
-
 import styles from "./sectionProductsSlider.module.css";
 import "swiper/css";
 import "swiper/css/pagination";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { MdOutlineStar, MdOutlineStarBorder } from "react-icons/md";
@@ -13,8 +11,33 @@ import { Pagination } from "swiper/modules";
 import { BsCart4 } from "react-icons/bs";
 import { CiZoomIn } from "react-icons/ci";
 import { IoIosHeartEmpty } from "react-icons/io";
+import { useEffect, useState } from "react";
+import { getProducts } from "@/services/getProducts";
+import Loading from "@/components/Loading";
 
-const SectionProductsSlider = ({ products }) => {
+const SectionProductsSlider = ({ category }: { category: string }) => {
+    const [products, setProducts] = useState();
+    const [loading, setLoading] = useState<boolean>(true);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                setLoading(true);
+                const products = await getProducts(category);
+                setProducts(products);
+                setLoading(false);
+            } catch (error) {
+                setLoading(false);
+                console.log(error);
+            }
+        };
+        fetchData();
+    }, [category]);
+
+    if (loading) {
+        return <Loading height={400} />;
+    }
+
     return (
         <Swiper
             slidesPerView={5}
@@ -28,10 +51,9 @@ const SectionProductsSlider = ({ products }) => {
                 marginBottom: "50px",
                 padding: "20px",
             }}
-            loop={true}
             className={styles.productsSlider}
         >
-            {products.map((item) => (
+            {products?.map((item) => (
                 <SwiperSlide key={item.id} className={styles.productSlide}>
                     <ul className={styles.slideCart__actions}>
                         <li>

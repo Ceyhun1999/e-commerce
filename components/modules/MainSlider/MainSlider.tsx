@@ -48,7 +48,7 @@ const MainSlider = () => {
                     </p>
                     <Link href={""}>Shop now</Link>
                 </div>
-                <Image src="/img/sliderImg1.jpg" alt="" fill />
+                <Image  src="/img/sliderImg1.jpg" alt="Slider" fill quality={100} />
             </SwiperSlide>
             <SwiperSlide className={styles.swiper__slide}>
                 <div className={`${state === 1 ? styles.animation : ""}`}>
@@ -66,7 +66,7 @@ const MainSlider = () => {
                     </p>
                     <Link href={""}>Shop now</Link>
                 </div>
-                <Image src="/img/sliderImg2.jpg" alt="" fill />
+                <Image src="/img/sliderImg2.jpg" alt="Slider" fill quality={100} />
             </SwiperSlide>
             <SwiperSlide className={styles.swiper__slide}>
                 <div className={`${state === 2 ? styles.animation : ""}`}>
@@ -84,7 +84,7 @@ const MainSlider = () => {
                     </p>
                     <Link href={""}>Shop now</Link>
                 </div>
-                <Image src="/img/sliderImg3.jpg" alt="" fill />
+                <Image src="/img/sliderImg3.jpg" alt="Slider" fill quality={100} />
             </SwiperSlide>
         </Swiper>
     );

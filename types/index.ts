@@ -16,3 +16,8 @@ export interface IBrendsItem {
     img: string;
     id: number;
 }
+
+export interface ICatSectionItem {
+    id: number;
+    category: string;
+}
