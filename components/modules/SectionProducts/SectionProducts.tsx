@@ -5,10 +5,8 @@ import SectionCat from "./SectionCat/SectionCat";
 import SectionProductsSlider from "./SectionProductsSlider/SectionProductsSlider";
 import { useState } from "react";
 
-const SectionProducts = ({ title }: { title: string }) => {
-    const [category, setCategory] = useState<string>("");
-    console.log(category);
-
+const SectionProducts = ({ title, catData }: { title: string; catData: string }) => {
+    const [category, setCategory] = useState<string>(catData);
     const onHandleChangeCategory = (category: string) => setCategory(category);
 
     return (

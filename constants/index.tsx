@@ -12,43 +12,45 @@ export const categories: ICategoryItem[] = [
     {
         title: "Computer",
         icon: <HiOutlineComputerDesktop size={25} color="#767b8b" />,
+        categoryName: 'computer',
     },
     {
-        title: "Mobile & Tablet",
+        title: "Mobile",
         icon: <CiMobile3 size={25} color="#767b8b" />,
+        categoryName: 'phone',
     },
     {
         title: "Camera",
         icon: <CiCamera size={25} color="#767b8b" />,
+        categoryName: 'camera',
     },
-    {
-        title: "Accessories",
-        icon: <TbBrandSocketIo size={25} color="#767b8b" />,
-    },
+    
     {
         title: "Headphones",
         icon: <GiHeadphones size={25} color="#767b8b" />,
+        categoryName: 'headphones',
     },
     {
         title: "Gaming",
         icon: <IoLogoGameControllerB size={25} color="#767b8b" />,
+        categoryName: 'game',
     },
     {
         title: "Watches",
         icon: <GiWatch size={25} color="#767b8b" />,
+        categoryName: 'watches',
     },
     {
         title: "Home Audio & Theater",
         icon: <LuFileAudio size={25} color="#767b8b" />,
+        categoryName: 'audio',
     },
     {
         title: "TV & Smart Box",
         icon: <MdOutlineSmartDisplay size={25} color="#767b8b" />,
+        categoryName: 'televisions',
     },
-    {
-        title: "Printer",
-        icon: <TfiPrinter size={25} color="#767b8b" />,
-    },
+    
 ];
 
 export const brendsData: IBrendsItem[] = [

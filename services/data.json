@@ -1,20 +1,8 @@
 {
     "products": [
+       
         {
             "id": 1,
-            "name": "Red & Black Headphone",
-            "price": 65,
-            "imgs": [
-                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img1.jpg",
-                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img1.jpg",
-                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img10.jpg",
-                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img10.jpg"
-            ],
-            "types": "Best Sellers, Headphones",
-            "star": 3
-        },
-        {
-            "id": 2,
             "name": "Smart Watch External",
             "price": 69,
             "imgs": [
@@ -22,10 +10,65 @@
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img2.jpg"
             ],
             "types": "Best Sellers, Mobile & Tablet, Special Offer",
-            "star": 4
+            "star": 4,
+            "category": "watches"
+        },
+        {
+            "id": 2,
+            "name": "Apple Watch 9 45 mm Midnight W/Midnight Sport Band M/L MR9A3QI/A",
+            "price": 79,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0333.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0333-1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0333-3.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0333-8.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0333-4.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "watches"
         },
         {
             "id": 3,
+            "name": "APPLE WATCH 9 41 MM PİNK W/LİGHT PİNK SPORT BAND S/M / MR933QI/A",
+            "price": 79,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0391-01.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0391-02.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0391-03.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0391-04.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0333-4.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "watches"
+        },
+        {
+            "id": 4,
+            "name": "APPLE WATCH 9 41 MM STARLİGHT W/STARLİGHT SPORT BAND S/M MR8T3QI/A",
+            "price": 79,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0366.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0366_1_.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "watches"
+        },
+        {
+            "id": 5,
+            "name": "Apple Watch SE 2 44 mm Starlight W/Starlight Sport Band M/L / MRE53QI/A",
+            "price": 79,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0345.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-smw-1106-sw-0345-1.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "watches"
+        },
+        {
+            "id": 6,
             "name": "Nikon HD Camera",
             "price": [70, 50],
             "imgs": [
@@ -33,10 +76,11 @@
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img3.jpg"
             ],
             "types": "Best Sellers, Camera, Special Offer",
-            "star": 3
+            "star": 3,
+            "category": "camera"
         },
         {
-            "id": 4,
+            "id": 7,
             "name": "Surveillance Camera",
             "price": [70, 50],
             "imgs": [
@@ -44,10 +88,11 @@
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img8.jpg"
             ],
             "types": "Camera,  New Arrival",
-            "star": 4
+            "star": 4,
+            "category": "camera"
         },
         {
-            "id": 5,
+            "id": 8,
             "name": "Samsung Smart Phone",
             "price": 120,
             "imgs": [
@@ -57,10 +102,11 @@
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img9.jpg"
             ],
             "types": "Best Sellers, Featured, Mobile & Tablet, Special Offer",
-            "star": 4
+            "star": 4,
+            "category": "phone"
         },
         {
-            "id": 6,
+            "id": 9,
             "name": "Smart Televisions",
             "price": [170, 150],
             "imgs": [
@@ -68,10 +114,11 @@
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img5.jpg"
             ],
             "types": "Computer, Featured, Special Offer",
-            "star": 5
+            "star": 5,
+            "category": "televisions"
         },
         {
-            "id": 7,
+            "id": 10,
             "name": "Audio Theaters",
             "price": [70, 40],
             "imgs": [
@@ -79,10 +126,11 @@
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img7.jpg"
             ],
             "types": "Best Sellers, Computer, Featured",
-            "star": 4
+            "star": 4,
+            "category": "audio"
         },
         {
-            "id": 8,
+            "id": 11,
             "name": "Sound Equipment For Low",
             "price": [95, 50],
             "imgs": [
@@ -92,10 +140,11 @@
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img4.jpg"
             ],
             "types": "Featured, Mobile & Tablet, New Arrival",
-            "star": 5
+            "star": 5,
+            "category": "audio"
         },
         {
-            "id": 9,
+            "id": 12,
             "name": "Oppo Reno3 Pro",
             "price": [95, 50],
             "imgs": [
@@ -105,10 +154,11 @@
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img6.jpg"
             ],
             "types": "Camera, Mobile & Tablet, New Arrival, Special Offer",
-            "star": 5
+            "star": 5,
+            "category": "phone"
         },
         {
-            "id": 10,
+            "id": 13,
             "name": "Smart Televisions",
             "price": 150,
             "imgs": [
@@ -116,7 +166,310 @@
                 "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img11.jpg"
             ],
             "types": "Computer, Featured, Special Offer",
-            "star": 5
+            "star": 5,
+            "category": "televisions"
+        },
+        {
+            "id": 14,
+            "name": "Smart Televisions",
+            "price": 200,
+            "imgs": [
+                "https://www.sencor.com/Sencor/media/content/Products/SLE32S700TCS-2.jpg",
+                "https://www.sencor.com/Sencor/media/content/Products/SLE32S801TCSB-03.jpg"
+            ],
+            "types": "Computer, Featured, Special Offer",
+            "star": 5,
+            "category": "televisions"
+        },
+        
+        {
+            "id": 15,
+            "name": "HP ENVY ALL-İN-ONE 34-C0003URBUNDLE PC (58K39EA)",
+            "price": 8099,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-kot-1114-mk-0094-1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-kot-1114-mk-0094-2.png"
+            ],
+            "types": "computer",
+            "star": 4,
+            "category": "computer"
+        },
+        {
+            "id": 16,
+            "name": "Monoblok Lenovo IdeaCentre AIO 3 24ITL6 (F0G00122RU)",
+            "price": 2.599,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/b/7/b7.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new_project_-_2023-01-26t125031.255.png"
+            ],
+            "types": "computer",
+            "star": 4,
+            "category": "computer"
+        },
+        {
+            "id": 17,
+            "name": "Lenovo V30A-24IIL AIO (11LA006VRU)",
+            "price": 1.899,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/b/8/b8.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new_project_-_2023-01-26t122356.972.png"
+            ],
+            "types": "computer",
+            "star": 4,
+            "category": "computer"
+        },
+        {
+            "id": 18,
+            "name": "İPHONE 15 PRO 512 GB BLUE",
+            "price": 3.579,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-sbp-1105-sm-2508-110.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-sbp-1105-sm-2508-111.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-sbp-1105-sm-2508-112.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "computer"
+        },
+        {
+            "id": 19,
+            "name": "iPhone 13 128 GB Pink",
+            "price":1.449,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-sbp-1105-sm-1512.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-sbp-1105-sm-1512-1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-sbp-1105-sm-1512-2.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "phone"
+        },
+        {
+            "id": 20,
+            "name": "iPhone 15 Pro 1 TB Natural",
+            "price":4.099,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-sbp-1105-sm-2511_1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-sbp-1105-sm-2507-2_1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-sbp-1105-sm-2507-3_1.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "phone"
+        },
+        {
+            "id": 21,
+            "name": "OPPO A58 8/128 GB Black",
+            "price":459.99,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/f/i/file_1083.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/_/1/_1__918_1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/_/2/_2__655_3.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "phone"
+        },
+        {
+            "id": 22,
+            "name": "OPPO A78 8/256 GB GREEN",
+            "price":629.99,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/1/_/1_44__1_1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/1/_/1_42__2.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/1/_/1_39__5.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "phone"
+        },
+        {
+            "id": 23,
+            "name": "Fotoaparat Leica M10-R SL",
+            "price":9999.99,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new-project-26_1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new-project-27_2.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "camera"
+        },
+        {
+            "id": 24,
+            "name": "Fotoaparat Canon EOS R6 Mark II V5+RF24105 S SEE (5666C029)",
+            "price":7299.99,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/_/-/_-_2023-03-17t122243.515.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/_/-/_-_2023-03-17t122224.367.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "camera"
+        },
+        {
+            "id": 25,
+            "name": "Canon Eos 4000D Kit 18-55/Bag /16Gb/ (3011C015)",
+            "price":949.99,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-phv-1106-ph-0137_1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-phv-1106-ph-0137_2.png"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "camera"
+        },
+        {
+            "id": 26,
+            "name": "Fotoaparat Canon Eos 4000D Kit 18-55",
+            "price":879.99,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/0/0/0033209_1.jpg",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/0/0/0033209_2.jpg"
+            ],
+            "types": "Best Sellers, Mobile & Tablet, Special Offer",
+            "star": 4,
+            "category": "camera"
+        },
+        {
+            "id": 27,
+            "name": "Red & Black Headphone",
+            "price": 65,
+            "imgs": [
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img1.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img1.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_img10.jpg",
+                "https://klbtheme.com/shopwise/electronic/wp-content/uploads/2020/04/el_hover_img10.jpg"
+            ],
+            "types": "Best Sellers, Headphones",
+            "star": 3,
+            "category": "headphones"
+        },
+        {
+            "id": 28,
+            "name": "Qulaqlıq Bang & Olufsen H95 Black",
+            "price": 1859,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-acs-1109-oh-0153_1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/2/0/201209150028622560.png"
+            ],
+            "types": "Best Sellers, Headphones",
+            "star": 3,
+            "category": "headphones"
+        },
+        {
+            "id": 29,
+            "name": "Qulaqlıq Apple Airpods Max MGYM3RU/A Pink",
+            "price": 1559,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new_project_-_2023-01-20t190531.062.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new_project_-_2023-01-20t190526.651.png"
+            ],
+            "types": "Best Sellers, Headphones",
+            "star": 3,
+            "category": "headphones"
+        },
+        {
+            "id": 30,
+            "name": "Qulaqlıq Bang & Olufsen Beoplay EX Anthracite Oxygen / 1240602",
+            "price": 666,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-acs-1109-tw-0239_1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-acs-1109-tw-0239_5.png"
+            ],
+            "types": "Best Sellers, Headphones",
+            "star": 3,
+            "category": "headphones"
         }
-    ]
+        ,
+        {
+            "id": 31,
+            "name": "Playstation Portal Remote Player for PS5 Console",
+            "price": 719,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-gaf-1106-gc-0049.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-gaf-1106-gc-0049-1.png"
+            ],
+            "types": "Best Sellers, Headphones",
+            "star": 3,
+            "category": "game"
+        }
+        ,
+        {
+            "id": 32,
+            "name": "PS5 + Pulse 3D Wireless Headset",
+            "price": 1399,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-gaf-1106-gc-0047.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-gaf-1106-gc-0047-1.png"
+            ],
+            "types": "Best Sellers, Headphones",
+            "star": 3,
+            "category": "game"
+        }
+        ,
+        {
+            "id": 33,
+            "name": "Apple TV 4K 64 GB MN873RU/A",
+            "price": 399,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new_project_-_2023-02-05t135209.325.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new_project_-_2023-02-05t135237.534.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new_project_-_2023-02-05t135151.161.png"
+            ],
+            "types": "Best Sellers, Headphones",
+            "star": 3,
+            "category": "game"
+        } ,
+        {
+            "id": 34,
+            "name": "JBL party box ultimate / JBLPARTYBOXULTEU",
+            "price": 3299.99,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-acs-1109-ha-0075_1.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/t/m/tm-dg-acs-1109-ha-0075_5.png",
+                "https://kontakt.az/media/catalog/product/cache/88174fa57c3607ad4c35922778a9d1bd/t/m/tm-dg-acs-1109-ha-0075_6.png"
+            ],
+            "types": "Best Sellers, Headphones",
+            "star": 3,
+            "category": "audio"
+        } ,
+        {
+            "id": 35,
+            "name": "Portativ proyektor Samsung The Freestyle SP-LFF3CLAXXRU 2-ci nəsil",
+            "price": 1799.99,
+            "imgs": [
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new_project_-_2023-09-06t095620.746_3.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new_project_-_2023-09-06t095550.073_2.png",
+                "https://kontakt.az/media/catalog/product/cache/5f267e97f6550e9d7e6043084ee14236/n/e/new_project_-_2023-09-06t095011.165_1__3.png"
+            ],
+            "types": "Best Sellers, Headphones",
+            "star": 3,
+            "category": "camera"
+        }
+       
+    ],
+    "customer": [
+        {
+          "id": 1,
+          "name": "Stefan Winkler",
+          "phone_number": "017692601589",
+          "age": "22",
+          "education": "High School"
+        },
+        {
+          "id": 2,
+          "name": "Christoph Huber",
+          "phone_number": "094462649",
+          "age": "42",
+          "education": "nothing"
+        },
+        {
+          "id": 3,
+          "name": "Michael Unholer",
+          "phone_number": "093862649",
+          "age": "12",
+          "education": "Realschule"
+        }
+      ]
 }
