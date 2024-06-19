@@ -2,12 +2,12 @@
 
 import Image from "next/image";
 
-const Loading = ({ height }: { height: number }) => {
+const Loading = ({ height }: { height: string }) => {
 
     return (
         <div
             style={{
-                height: `${height}px`,
+                height: `${height}`,
                 color: "black",
                 fontSize: "100px",
                 width: "100%",

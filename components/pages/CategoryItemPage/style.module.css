@@ -6,6 +6,8 @@
 .breadcrumb h2 {
     font-size: 32px;
     color: #292b2c;
+    font-weight: 500;
+    text-transform: capitalize;
 }
 
 .category a {
@@ -15,4 +17,9 @@
     font-size: 14px;
     padding: 5px 0;
     white-space: nowrap;
+}
+
+.category h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
 }

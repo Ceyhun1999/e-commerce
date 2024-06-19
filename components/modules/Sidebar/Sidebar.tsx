@@ -1,19 +1,22 @@
-import { IoMenuOutline } from "react-icons/io5";
-import styles from "./style.module.css";
 import { categories } from "@/constants";
+import { IoMenuOutline } from "react-icons/io5";
+
 import Link from "next/link";
 
 const Sidebar = () => {
     return (
-        <nav className={styles.nav}>
+        <nav className="min-w-72 bg-white shadow-custom">
             <ul>
-                <li style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
+                <li className="flex items-center gap-3 py-5 px-4 bg-[#ff324d] font-medium text-white text-lg ">
                     <IoMenuOutline size={30} color="#fff" />
                     All Categories
                 </li>
-                {categories.map(({ title, icon,categoryName }, index) => (
+                {categories.map(({ title, icon, categoryName }, index) => (
                     <li key={title + index}>
-                        <Link href={`/electronic/${categoryName.toLowerCase()}`}>
+                        <Link
+                            className="uppercase text-left w-full flex items-center justify-start gap-3 font-light py-3 px-4 text-sm text-black"
+                            href={`/electronic/${categoryName.toLowerCase()}`}
+                        >
                             {icon}
                             {title}
                         </Link>

@@ -1,21 +1,21 @@
 "use client";
 
-import styles from "./sectionProducts.module.css";
-import SectionCat from "./SectionCat/SectionCat";
-import SectionProductsSlider from "./SectionProductsSlider/SectionProductsSlider";
 import { useState } from "react";
 
-const SectionProducts = ({ title, catData }: { title: string; catData: string }) => {
-    const [category, setCategory] = useState<string>(catData);
+import CategoryProducts from "./CategoryProducts";
+import ProductsList from "./ProductsList";
+
+const SectionProducts = ({ title, categoryName }: { title: string; categoryName: string }) => {
+    const [category, setCategory] = useState<string>(categoryName);
     const onHandleChangeCategory = (category: string) => setCategory(category);
 
     return (
-        <section className={styles.sectionProducts}>
-            <div className={styles.sectionProducts__title}>
-                <h2>{title}</h2>
-                <SectionCat onHandleChangeCategory={onHandleChangeCategory} />
+        <section className="pl-4 w-full my-10 mx-0">
+            <div className="w-full flex justify-between pb- border-t pt-5 pb-10 border-solid border-[#ddd] items-center">
+                <h2 className="text-2xl">{title}</h2>
+                <CategoryProducts onHandleChangeCategory={onHandleChangeCategory} />
             </div>
-            <SectionProductsSlider category={category} />
+            <ProductsList category={category} />
         </section>
     );
 };

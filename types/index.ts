@@ -3,14 +3,15 @@ import React from "react";
 export interface ICategoryItem {
     title: string;
     icon: React.ReactNode;
-    categoryName: string
+    categoryName: string;
 }
 
 export interface IProductItem {
     id: number;
     name: string;
-    price: number;
+    price: number | number[];
     imgs: string[];
+    star: number;
 }
 
 export interface IBrendsItem {
@@ -18,7 +19,15 @@ export interface IBrendsItem {
     id: number;
 }
 
-export interface ICatSectionItem {
+export interface IProductsCategory {
     id: number;
     category: string;
+}
+
+export interface ISliderProduct {
+    id: number;
+    name: string;
+    desc: string;
+    price: number[];
+    img: string;
 }

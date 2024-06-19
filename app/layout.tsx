@@ -3,6 +3,10 @@ import "./reset.css";
 import "./globals.css";
 import Header from "@/components/modules/Header/Header";
 import Footer from "@/components/modules/Footer/Footer";
+import ProviderComponent from "@/components/Provider/Provider";
+import { useSelector } from "react-redux";
+import { RootState } from "@/redux/store";
+import AppBar from "@/components/AppBar";
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -15,12 +19,15 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body>
-                <Header />
-                {children}
-                <Footer />
-            </body>
-        </html>
+        <ProviderComponent>
+            <html lang="en">
+                <body>
+                    <AppBar />
+                    <Header />
+                    {children}
+                    <Footer />
+                </body>
+            </html>
+        </ProviderComponent>
     );
 }

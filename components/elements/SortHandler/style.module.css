@@ -1,0 +1,12 @@
+.select {
+    height: 45px;
+    border: 1px solid #ced4da;
+    padding: 8px 35px 8px 15px;
+    width: 100%;
+    color: #6c757d;
+    box-shadow: none;
+    position: relative;
+    outline: none;
+    max-width: 300px;
+    margin-bottom: 30px;
+}

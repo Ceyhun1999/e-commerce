@@ -1,0 +1,25 @@
+.filter {
+    margin-top: 20px;
+}
+
+.filter h3 {
+    font-size: 20px;
+}
+
+.filter  button {
+    background: var(--red);
+    border: none;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 2px;
+    font-size: 14px;
+    transition: .3s;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.filter button:hover {
+    background: #fff;
+    color: var(--red);
+    border: 1px solid var(--red);
+}

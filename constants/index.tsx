@@ -1,12 +1,11 @@
-import { IBrendsItem, ICatSectionItem, ICategoryItem } from "@/types";
+import { IBrendsItem, ICategoryItem, IProductsCategory } from "@/types";
 import { CiCamera, CiMobile3 } from "react-icons/ci";
 import { GiHeadphones, GiWatch } from "react-icons/gi";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { IoLogoGameControllerB } from "react-icons/io";
 import { LuFileAudio } from "react-icons/lu";
 import { MdOutlineSmartDisplay } from "react-icons/md";
-import { TbBrandSocketIo } from "react-icons/tb";
-import { TfiPrinter } from "react-icons/tfi";
+
 
 export const categories: ICategoryItem[] = [
     {
@@ -72,7 +71,7 @@ export const brendsData: IBrendsItem[] = [
     },
 ];
 
-export const catSectionData: ICatSectionItem[] = [
+export const productsCategoryData: IProductsCategory[] = [
     { id: 1, category: "Best Sellers" },
     { id: 2, category: "Featured" },
     { id: 3, category: "New Arrival" },
